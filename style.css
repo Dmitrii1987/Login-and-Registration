@@ -44,5 +44,42 @@ body{
     background: #ebf5fc;
     border: none;
     outline: none;
-    
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: #03a9f4;
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0 ,0, 0, 0.1);
+}
+
+.form-login button, .form-login button:hover{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #999;
+    background: #ebf5fc;
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 1),
+    2px 2px 6px rgba(0 ,0, 0, 0.1);
+    padding: 10px 60px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-login button:active{
+    outline: none !important;
+    border: none !important;
+    background: #ebf5fc !important;
+    color: #03a9f4 !important;8
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, 1),
+    inset 2px 2px 6px rgba(0 ,0, 0, 0.1) !important;
+}
+
+.form-login a{
+    color: #ff0047;
+    font-weight: 500;
+}
+
+.form-login h6{
+    color: red;
+    font-weight: 500;
 }
